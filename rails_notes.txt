@@ -25,3 +25,7 @@ Notes for creating a payment system in rails:
 -- add gem to the gemfile
 -- create a new file in stylesheets as bootstrap_custom.css.scss (scss extends css functionality)
 -- in the file add @import 'bootstrap'; and save it
+
+7. Improving the homepage:
+-- add the html code to the files in views. 
+-- change the application.html.erb file also accordingly

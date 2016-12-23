@@ -21,3 +21,7 @@ Notes for creating a payment system in rails:
 -- add remote using this command heroku git:remote -a create-rails-payments
 -- to push the changes to the heroku application do git push heroku master
 
+6. Add Twitter Bootstrap:
+-- add gem to the gemfile
+-- create a new file in stylesheets as bootstrap_custom.css.scss (scss extends css functionality)
+-- in the file add @import 'bootstrap'; and save it

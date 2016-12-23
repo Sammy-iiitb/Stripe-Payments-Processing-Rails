@@ -1,0 +1,23 @@
+Notes for creating a payment system in rails:
+1. Visit installrails.com website which has quite good stuffs to be known.
+2. Install git, rails and ruby and update them to the latest version.
+
+3. Create a new rails application using the following command:
+-- rails new folder_name
+-- run rails server to check if things are working perfectly fine and view the page in localhost:3000 
+
+4. Create a new home page contains various steps, find them below:
+-- views work in the following way a root calls a controller and then controller view render a view.
+-- add routes to routes.rb corrosponding to the controller.
+-- so create a controller in app/controllers and add a new file and save that as pages_controller.rb.
+-- add code to the pages controller and add functions to it inheriting from application controller and define method home.
+-- rails if not defined than by default home method will render home.html.erb
+-- to create a view then create a new folder called pages and in that create the file home.html.erb
+
+5. Working with heroku:
+-- Install heroku cli 
+-- then login using command heroku login
+-- then to create a heroku application do heroku apps:create le-rails-payments
+-- add remote using this command heroku git:remote -a create-rails-payments
+-- to push the changes to the heroku application do git push heroku master
+

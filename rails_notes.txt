@@ -29,3 +29,7 @@ Notes for creating a payment system in rails:
 7. Improving the homepage:
 -- add the html code to the files in views. 
 -- change the application.html.erb file also accordingly
+
+8. Update the homepage CSS:
+-- add the code under charset in index.html to application.html.erb to get the css scripts
+-- 

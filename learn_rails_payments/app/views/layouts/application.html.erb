@@ -15,6 +15,14 @@
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <body>
+  <div id="content" class="container">
+    <header id="content-header">
+        <div id="price-container">
+          <span class="glyphicon glyphicon-tag"></span><span class="price">$9.99</span>
+        </div>
+        <img id="content-header-img" src="img/header-image.jpg" alt="Learn Growth Hacking">
+    </header>
     <%= yield %>
+    </div>
   </body>
 </html>
